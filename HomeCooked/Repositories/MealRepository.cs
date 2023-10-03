@@ -43,6 +43,18 @@ namespace HomeCooked.Repositories
                 }
             }
         }
+
+        //public List<Meal> GetUserMeals()
+        //{
+        //    using (var conn = Connection)
+        //    {
+        //        conn.Open(); 
+        //        using (var cmd = conn.CreateCommand())
+
+                
+        //    }
+        //}
+
     }
 }
 

@@ -1,16 +1,38 @@
-<script setup>
-import HomeView from './components/HomeView.vue';
+<script>
+import NavBar from './components/NavBar.vue';
+import  TheLoader from './components/TheLoader.vue'
+import { mapState } from 'vuex';
+export default {
+  name: 'App',
+  computed: {
+    ...mapState({
+      showLoading: state => state.showLoading
+    })
+  },
+  components: {
+    NavBar,
+    TheLoader
+  },
+}
 </script>
 
 <template>
-  <div>
-    <HomeView />
+  <NavBar />
+  <TheLoader v-if="showLoading"></TheLoader>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div>
+          <router-view></router-view>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 
-<style scoped>
-header {
+<style>
+ /* header {
   line-height: 1.5;
 }
 
@@ -35,5 +57,5 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
-}
+}  */
 </style>

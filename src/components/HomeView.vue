@@ -16,33 +16,13 @@ export default {
     MealsList,
     UsersList
 }
-    // props: {
-    //     data: String,
-    //     msg: String
-    // }, data()
-    // {
-    //     return {
-    //         users: [
-    //             {id:1,name:'Deanna',email:'deanna@test.com'},
-    //             {id:2,name:'Mike',email:'mike@test.com'},
-    //             {id:3,name:'Nick',email:'nick@test.com'},
-    //             {id:4,name:'Audrey',email:'audrey@test.com'}
-    //         ]
-    //     }
-    // }, methods:
-    // {
-    //     display()
-    //     {
-    //         this.show=!this.show
-    //     }
-    // }
 }
 </script>
 
 <style scoped>
 
 .home{
-    background-color: #264653;
+    background-color: #0E0F10;
     padding: 10px;
 }
 

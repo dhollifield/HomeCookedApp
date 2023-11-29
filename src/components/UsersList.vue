@@ -2,7 +2,7 @@
     <div class="child">
         <h1>Users</h1>
         <div v-for="user in users" :key="user.id" class="users">
-                <p class="loop-table">NAME: {{ user.firstName }} {{  user.lastName }}</p>
+                <p class="loop-table">NAME: {{ user.firstName }} {{ user.lastName }}</p>
                 <p class="loop-table">EMAIL: {{ user.email }}</p>
         </div>
     </div>

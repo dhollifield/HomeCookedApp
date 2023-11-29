@@ -5,6 +5,7 @@
                 <p class="loop-table">MAIN DISH: {{ meal.mainDish }}</p>
                 <p class="loop-table">SIDE DISH: {{ meal.sideDish1 }}</p>
                 <p class="loop-table">SIDE DISH: {{ meal.sideDish2 }}</p>
+                <p class="loop-table">FUEL TYPE: {{ meal.fuelType.fuelTypeName }}</p>
         </div>
     </div>
 </template>

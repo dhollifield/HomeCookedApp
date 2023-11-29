@@ -3,20 +3,6 @@
         <h1>Home Cooked</h1>
         <UsersList />
         <MealsList />
-        <!-- <h1 v-else>else side</h1> -->
-        <!-- <h1>{{ data }}</h1>
-        <h1>{{ msg }}</h1> -->
-        <!-- <button v-on:click="display">Toggle</button> -->
-        <!-- <table class="loop-table">
-            <tr>
-                <td  class="loop-table">Id</td><td  class="loop-table">Name</td><td  class="loop-table">Email</td>
-            </tr>
-            <tr v-for="user in users" :key="user.id">
-                <td  class="loop-table">{{ user.id }}</td>
-                <td  class="loop-table">{{ user.name }}</td>
-                <td  class="loop-table">{{ user.email }}</td>
-            </tr>
-        </table> -->
     </div>
 </template>
 
